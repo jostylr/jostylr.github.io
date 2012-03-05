@@ -1143,6 +1143,7 @@ marked.setOptions({
     $(document).ready(function () {
       $(".marked").each(function () {
         var com = $(this).text();
+        console.log(marked(com));
         $(this).html(marked(com));
         $(this).removeClass('marked');
       });
