@@ -1,2 +1,3 @@
 thomaspark http://thomaspark.me/jsonindex.txt
 fake http://jostylr.github.com/test.json
+sm http://sendmath.com/smjson.txt
