@@ -1,110 +1,47 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE HTML>
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The world of jostylr</title>    
-    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js" type="text/javascript"></script> 
-    <script src="scripts/marking.js" type="text/javascript" charset="utf-8"></script>
-    
-   <script>
-  $(document).ready(function(){
-      $("h2, h3").click( 
-      function ()
-      {$(this).next().toggleClass("hide").next().toggleClass("hide")}).click();
-      $("#papers ul").toggleClass("hide"); 
-      $("#clickdir").toggleClass("hide");
-    });
-  </script>
-  <style> 
-      .hide {display:none;}
-      h2, h3 {text-decoration:underline}
-      body {overflow:scroll}
-  </style>
+    <link rel="stylesheet" href="bootstrap.min.css" type="text/css" media="screen" charset="utf-8"/>
   </head>
   <body>
-      <h1>Just the basics </h1>
-      <p> 
-        This is a simple page to point out some of the other projects I am
-        working on and a bit of my background. To send me an email, note that
-        I use gmail with a user name of jostylr, of course. My real name is
-        James Taylor. 
-        
-        <p id="clickdir" class="hide"> Click on the
-            headings below for their promised information. </p>
-        </p>
-        <h2> My background </h2>
-        <p class="hide"> A brief description of my professional background
-        </p>
-       <div id="background">   
-          <p>
-      A brief pertinent background is that I obtained a PhD from <a
-          href="http://www.math.rutgers.edu"> Rutgers
-          University</a> in mathematics
-      on the topic of <a href="http://plato.stanford.edu/entries/qm-bohm/">
-          Bohmian mechanics</a>, a theory of quantum mechanics.   I also dabble in differential geometry. On
-      pleasant occasions, I get to dabble in both simultaneously. This is <a
-          href="http://www.math.rutgers.edu/~oldstein">my advisor's page</a>.
-      As for my professional work, the list below contains my papers.  
-      </p>
-      <div id="papers">
-      <h3> Papers </h3>
-      <ul >
-          <li> <a href="QMinMCspace.pdf">Quantum Mechanics in Multiply-Connected
-              Spaces</a> with D.
-          Dürr, S. Goldstein, R. Tumulka, and N. Zanghì, J. Phys. A: Math. Theor.
-          40, 2997-3031 (2007), quant-ph/0506173 
-          </li>
-          <li>  <a href="topfacBM.pdf">Topological Factors Derived From Bohmian
-              Mechanics</a> with D. Dürr,  S. Goldstein, R. Tumulka, and N. Zanghì, Annales de l'Institut Henri Poincaré (A) Physique Théorique 7, 791-807 (2006), quant-ph/0601076 
-          </li>
-          <li> <a href="aapartident.pdf">Are All Particles Identical?</a> with  S. Goldstein, R. Tumulka, and N. Zanghì, J. Phys. A: Math. Gen. 38, 1567-1576 (2005), quant-ph/0405039
-          </li>
-          <a href="aapartreal.pdf">Are All Particles Real?</a> with  S. Goldstein, R. Tumulka, and N. Zanghì, Studies in History and Philosophy of Science, Part B: Studies in History and Philosophy of Modern Physics 36, 103-112 (2005), quant-ph/0404134 
-           </li>
-           <li> <a href="thesis.pdf">Connections in Bohmian Mechanics</a> PhD thesis, October 2003,
-           under the direction of S. Goldstein. 196 pages. 
-           </li>
-       </ul>
-   </div>
-      <p>
-      After a couple of
-      years in academia (<a href="http://www.math.iastate.edu/">Iowa State
-          University</a>, <a href="http://www.marymount.edu/academic/artandsci/math/">Marymount
-          University</a>), I ended
-      up in a distance education program (<a href="http://www.cty.jhu.edu">Center for Talented Youth, Johns
-          Hopkins University</a>) teaching
-      very bright and gifted K-12 students who are eager to learn mathematics. And after a few years of that, I helped manage that program. 
-      It was very enjoyable and educational. But all good things come to an end. On August 14, 2009, four years to the business day from when I started 
-      and it being Bugbear Day, I left CTY. Sadly, the first Monday afterwards, I was offered a part-time teaching job. I am not very good at being unemployed!
-      But I am now primarily a freelance programmer plus other interests. 
-      </p><p>
-      As for computers, when I was young I had extensive interactions with
-      them and was a natural programmer. But during my college and graduate
-      years, I lacked a computer (portable computers were not too good in those
-      days and I hate clunky desk ones). But once I obtained one again, I
-      learned Perl followed by Javascript and PHP and then Python and now Objective-C for iPhone development. Programming is exciting! 
-      </p>
-    
-  </div>
 
-<h2> Projects </h2>
-<p class="hide"> A variety of projects I am pursuing. </p>
-  <div id="projects"> 
+    <div class="jumbotron">
+      <div class="container">
+        <h1>jostylr</h1>
+        <p>Welcome to the wide world of jostylr, a web programmer, mathematician, and father.</p>
+      </div>
+    </div>    
+
+    <div class="container">
+      <div class="row">
+      <div class="col-xs-9 col-sm-9 col-md-offset-1 col-md-8">
+
+        <h2>Blogs</h2>
+        <p> The best way to get to know me is through my writings:</p>
+        <ul>  
+          <li><p><a href="http://jostylr.tumblr.com/">My daily blog</a></p></li>
+          <li><p><a href="http://programmingmath.com/">Programming Math</a></p></li>
+          <li><p><a href="http://jostylr.com/mordblog">Half-orc journal</a></p></li>
+          <li><p><a href="http://mythiclogos.com">Old daily blog</a></p></li>
+
+        </ul>
+
+      <h2> Projects </h2>
+    <p> My portfolio, if you will </p>
+    <div id="projects"> 
    
-      <p> My current projects (Release dates): </p>
-      <ol>
-          <li><a href="http://www.bugbearday.org">Bugbear Day</a>. (Initial: June 14,
-          2007). <p> This
-          national holiday, every August 14, is the opposite of Valentine's Day. Instead of
-          celebrating your loved ones, we celebrate our enemies, our bugbears
-          if you will. To do so, give them a lovely gift that is inappropriate
-          in some way. This originated with 
-          <a href="http://bugbearday.org/history.html">Ralph Waldo
-              Emerson</a>. </p>
+      <ul>
+        
+        <li><p><a href="http://github.com/jostylr">My GitHub Repo</a> This is where my long list of current projects reside.</p>
+          <li>
+            <p><a href="http://github.com/jostylr/literate-programming">Literate Programming</a> This allows me to compile markdown documents into any kind of code I like.</p>
           </li>
-
-          <li><a href="http://www.goodloepoker.com">Goodloe Solitaire</a>.
-          (Initial: November 25, 2007) <p>Goodloe Poker is a poker variant that involves no betting, but a lot of lying.
+          <li><p><a href="http://github.com/jostylr/event-when">Event When</a> An event library that allows one to say, "do this after multiple things happen."</p></li>
+          <li><p><a href="http://www.goodloesolitaire.com">Goodloe Solitaire</a>.
+           Goodloe Poker is a poker variant that involves no betting, but a lot of lying.
           Essentially, one person gets a hand. They make a call, pass the hand
           along. If accepted, the next person must call something higher and
           the cycle repeats. If not accepted, then the hand is revealed. If it is lower than the called
@@ -118,37 +55,77 @@
           to end it or one runs out of cards. It is simple, fast, and
           effective. 
           </li>
-          <li>
-            <a href="http://jostylr.com/twasciimathwiki.html">Ascii Math and Tiddly Wiki</a>
-            
-            I modified Peter Jipsen's code for ASciencePad using his <a href="http://www1.chapman.edu/~jipsen/mathml/asciimath.html"> ASCIIMathML</a>. I found the code and put it in the very much revised version of <a href="http://tiddlywiki.com"> TiddlyWiki </a>
-            
-            Still seems to work! (May 12, 2010)
-            
-            Feel free to use this code anyway you see fit and in line with Peter Jipsen's license. 
-            
-            Import the tiddler ascii to get the functionality; then reboot the wiki. 
-            
-            The SVG drawing seems broken so ignore the interactive gallery. But the math part seems fine. 
-            
+          
+          <li><a href="http://www.bugbearday.org">Bugbear Day</a>.<p> This
+          international holiday, every August 14, is the opposite of Valentine's Day. Instead of
+          celebrating your loved ones, we celebrate our enemies, our bugbears
+          if you will. To do so, give them a lovely gift that is inappropriate
+          in some way. This originated with 
+          <a href="http://bugbearday.org/history.html">Ralph Waldo
+              Emerson</a>. </p>
           </li>
-      </ol>
-  </div>
-  <div id="Personal Recommendations for Reading, Learning, and
-      Living">
-  <h2><a href="recommend.html">Personal Recommendations for Reading, Learning, and
-          Living </a></h2>
-  <p> A collection of what I have found useful. </p>
-    <p class="hide"> A collection of what I have found useful. </p>
-  </div>
-  
-      <div class="marked">##Marked
-        
-This section is marked up with [marked](https://github.com/chjj/marked).
 
-Can you read [scopetime](http://jostylr.github.com/scopetime.md)
-      </div>
+      </ul>
 
-  
+        <h2> My background </h2>
+       <div id="background">   
+          <p>
+      A brief pertinent background is that I obtained a PhD from <a
+          href="http://www.math.rutgers.edu"> Rutgers
+          University</a> in mathematics
+      on the topic of <a href="http://plato.stanford.edu/entries/qm-bohm/">
+          Bohmian mechanics</a>, a theory of quantum mechanics.   I also dabble in differential geometry. On
+      pleasant occasions, I get to dabble in both simultaneously. This is <a
+          href="http://www.math.rutgers.edu/~oldstein">my advisor's page</a>. 
+      </p>
+      <p>
+      After a couple of
+      years in academia (<a href="http://www.math.iastate.edu/">Iowa State
+          University</a>, <a href="http://www.marymount.edu/academic/artandsci/math/">Marymount
+          University</a>), I ended
+      up teaching in a distance education program (<a href="http://www.cty.jhu.edu">Center for Talented Youth, Johns
+          Hopkins University</a>) teaching
+      very bright and gifted K-12 students who are eager to learn mathematics.
+      It has been very enjoyable and educational. It has afforded me the
+      opportunity to focus on mastering web technologies. I have taught the full range of high school mathematics course. 
+      </p>
+      <p> I left that program (though since have gone back to work part-time) in an effort to focus on my projects and to raise my daughter.
+      </p>
+      <p>
+      As for computers, when I was young I had extensive interactions with
+      them and was a natural programmer. But during my college and graduate
+      years, I lacked a computer (portable computers were not too good in those
+      days and I hate clunky desk ones). But once I obtained one again, I
+      learned Perl followed by Javascript and PHP. These languages are
+      extremely nice to program in and their power is amazing. 
+      </p>
+      <div id="papers">
+      <h4> Papers </h4>
+      <ul >
+          <li> <a href="QMinMCspace.pdf">Quantum Mechanics in Multiply-Connected
+              Spaces</a> with D.
+          DÃ¼rr, S. Goldstein, R. Tumulka, and N. ZanghÃ¬, J. Phys. A: Math. Theor.
+          40, 2997-3031 (2007), quant-ph/0506173 
+          </li>
+          <li>  <a href="topfacBM.pdf">Topological Factors Derived From Bohmian
+              Mechanics</a> with D. DÃ¼rr,  S. Goldstein, R. Tumulka, and N. ZanghÃ¬, Annales de l'Institut Henri PoincarÃ© (A) Physique ThÃ©orique 7, 791-807 (2006), quant-ph/0601076 
+          </li>
+          <li> <a href="aapartident.pdf">Are All Particles Identical?</a> with  S. Goldstein, R. Tumulka, and N. ZanghÃ¬, J. Phys. A: Math. Gen. 38, 1567-1576 (2005), quant-ph/0405039
+          </li>
+          <a href="aapartreal.pdf">Are All Particles Real?</a> with  S. Goldstein, R. Tumulka, and N. ZanghÃ¬, Studies in History and Philosophy of Science, Part B: Studies in History and Philosophy of Modern Physics 36, 103-112 (2005), quant-ph/0404134 
+           </li>
+           <li> <a href="thesis.pdf">Connections in Bohmian Mechanics</a> PhD thesis, October 2003,
+           under the direction of S. Goldstein. 196 pages. 
+           </li>
+       </ul>
+   </div>
+    
+  </div>
+
+
+  </div>
+</div>
+</div>
+</div>
   </body>
 </html>
