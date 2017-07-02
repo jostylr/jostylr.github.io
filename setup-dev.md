@@ -3,3 +3,5 @@
 3. Install Fish. https://fishshell.com  Try the app to leave bash from terminal and get fish when you want fish :)
 4. Need bass to run bash scripts in fish  https://github.com/edc/bass
 5. Install fundle to install fish functions: https://github.com/tuvistavie/fundle
+6. Install vundle https://github.com/VundleVim/Vundle.vim
+7. Install vimrc https://github.com/jostylr/vim/blob/master/vimrc.txt
