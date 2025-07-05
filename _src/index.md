@@ -39,12 +39,12 @@ As for computers, when I was young I had extensive interactions with them and wa
 
 ### Papers
 
-- [Quantum Mechanics in Multiply-Connected Spaces](QMinMCspace.pdf) with D. Dürr, S. Goldstein, R. Tumulka, and N. Zanghì, J. Phys. A: Math. Theor. 40, 2997-3031 (2007), quant-ph/0506173
+- [Quantum Mechanics in Multiply-Connected Spaces](/pdfs/QMinMCspace.pdf) with D. Dürr, S. Goldstein, R. Tumulka, and N. Zanghì, J. Phys. A: Math. Theor. 40, 2997-3031 (2007), quant-ph/0506173
 
-- [Topological Factors Derived From Bohmian Mechanics](topfacBM.pdf) with D. Dürr, S. Goldstein, R. Tumulka, and N. Zanghì, Annales de l'Institut Henri Poincaré (A) Physique Théorique 7, 791-807 (2006), quant-ph/0601076
+- [Topological Factors Derived From Bohmian Mechanics](/pdfs/topfacBM.pdf) with D. Dürr, S. Goldstein, R. Tumulka, and N. Zanghì, Annales de l'Institut Henri Poincaré (A) Physique Théorique 7, 791-807 (2006), quant-ph/0601076
 
-- [Are All Particles Identical?](aapartident.pdf) with S. Goldstein, R. Tumulka, and N. Zanghì, J. Phys. A: Math. Gen. 38, 1567-1576 (2005), quant-ph/0405039
+- [Are All Particles Identical?](/pdfs/aapartident.pdf) with S. Goldstein, R. Tumulka, and N. Zanghì, J. Phys. A: Math. Gen. 38, 1567-1576 (2005), quant-ph/0405039
 
-- [Are All Particles Real?](aapartreal.pdf) with S. Goldstein, R. Tumulka, and N. Zanghì, Studies in History and Philosophy of Science, Part B: Studies in History and Philosophy of Modern Physics 36, 103-112 (2005), quant-ph/0404134
+- [Are All Particles Real?](/pdfs/aapartreal.pdf) with S. Goldstein, R. Tumulka, and N. Zanghì, Studies in History and Philosophy of Science, Part B: Studies in History and Philosophy of Modern Physics 36, 103-112 (2005), quant-ph/0404134
 
-- [Connections in Bohmian Mechanics](thesis.pdf) PhD thesis, October 2003, under the direction of S. Goldstein. 196 pages.
+- [Connections in Bohmian Mechanics](/pdfs/thesis.pdf) PhD thesis, October 2003, under the direction of S. Goldstein. 196 pages.
