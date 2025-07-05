@@ -1,0 +1,26 @@
+{
+  "name": "jostylr-site",
+  "version": "1.0.0",
+  "description": "Personal website for jostylr",
+  "main": "index.js",
+  "scripts": {
+    "build": "bun _src/build.js",
+    "dev": "bun _src/watch.js",
+    "start": "bun build"
+  },
+  "keywords": [
+    "personal",
+    "website",
+    "markdown",
+    "static-site"
+  ],
+  "author": "jostylr",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "^9.1.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "bun": ">=1.0.0"
+  }
+}
