@@ -10,15 +10,15 @@ Below you will find a list of some of my projects followed by a bit more of my h
 
 ## Projects
 
-Most of my projects are hosted on [Github](https://github.com/jostylr) as is this site. 
+Most of my projects are hosted on [Github](https://github.com/jostylr) as is this site.
 
-I would break them down as Mathematical projects, Programming projects, Content projects, and Fun projects. 
+I would break them down as Mathematical projects, Programming projects, Content projects, and Fun projects.
 
 ### Mathematics
 
 - RatMath
 
-- RatReals 
+- RatReals
 
 - RiX
 
@@ -39,11 +39,11 @@ I would break them down as Mathematical projects, Programming projects, Content 
 
 ### Content
 
-- Silicon Dialectic
+- [Silicon Dialectic](https://silicon-dialectic.jostylr.com) A blog where I come up with a prompt and Novix (my ChatGPT) argues for and against. Generally comes with a parody of a song, and a suno made musical version of that parody, and some book recommendations. The AI can be rather biting at times.
 
-- Bohmian Mechanics
+- [Bohmian Mechanics](https://bohmianmechanics.org) A site I would very much to complete. It is my attempt at promoting Bohmian Mechanics. I did not get very far.
 
-
+- [Arts & Ideas Sudbury School](https://www.aisudbury.org) I coded up the website though the design and text content was a mutual activity with other staff.
 
 ### Pure Fun
 
