@@ -16,25 +16,27 @@ I would break them down as Mathematical projects, Programming projects, Content 
 
 ### Mathematics
 
-- RatMath
+- [RatMath](https://calc.ratmath.com) An exploration of exact rational arithmetic. There is a simple calculator, an exploration of the Stern-Brocot tree, and a JavaScript library that can be used. Planning on making a rational spreadsheet (RatSheet), a document interface with Markdown (RatDocs), and some useful educational examples. It implements rational intervals as one of the number types.
 
-- RatReals
+- [RatReals](). Not made yet, but this will use RatMath to implement real numbers as functions that take in rational intervals and say Yes or No to whether the rational is in the interval.
 
-- RiX
+- [RatUnits](). Not made yet. A JavaScript library that implements units, both scientific and algebraic. Ideally, it will attach itself to whatever. This can not only implement m/s and such, but also complex numbers such as i, quaternions, and exact algebraic roots.
 
-- Programming Math
+- [RiX](https://github.com/jostylr/rix-lang-parser). Rational Interval Expression. A new language for exploring mathematics using RatMath and RatReals for the underlying computational structures. Parser is implemented, but not the evaluation (needs RatReals).
 
-- Math Pebbles
+- [Programming Math](http://www.programmingmath.com) Hopefully a site that can combine the above to explore programming mathematics in various ways.
+
+- [Math Pebbles](test.mathpebbles.com) A dream of mine to really put out a massive resource for exploring and learning mathematics. Long way from being done.
 
 
 
 ### Programming
 
-- Eventlite Sourcing
+- [Eventlite Sourcing](https://github.com/jostylr/eventlite-sourcing) The idea is to implement event sourcing, but using SQLite. I got a working version going, but then called in the AI to do docs, tests, and further enhancements such as privacy and file issues. I am using it in a private project for Arts&Ideas, doing all the internal functions. I find being able to replay events to construct a modified database setup is awesome.
 
-- [Literate Programming](http://github.com/jostylr/literate-programming) - This allows me to compile markdown documents into any kind of code I like.
+- [Literate Programming](http://github.com/jostylr/literate-programming) - This allows me to compile markdown documents into any kind of code I like. Rather old now. I am hoping to revisit and revise to a more modern underlying strucuture. I think it could be useful in working with AIs, both for expressing what one wants in the context one wants, but then having it write its rational and implementation.
 
-- [Event When](http://github.com/jostylr/event-when) - An event library that allows one to say, "do this after multiple things happen."
+- [Event When](http://github.com/jostylr/event-when) - An event library that allows one to say, "do this after multiple things happen." I am hoping to make this faster and cleaner for debugging. Perhaps also use SQLite, but would like it to work in the browser. So experimentation is required.
 
 
 ### Content
@@ -48,7 +50,7 @@ I would break them down as Mathematical projects, Programming projects, Content 
 ### Pure Fun
 
 
-- [Half-orc journal](http://mord.jostylr.com)
+- [Half-orc journal](http://mord.jostylr.com) Mord who servers Kord with his Great Sword. A journal that Mord kept of his adventures many years ago. I hope that these adventures might get to continue.
 
 - [Goodloe Solitaire](http://goodloesolitaire.jostylr.com) - Goodloe Poker is a poker variant that involves no betting, but a lot of lying. Essentially, one person gets a hand. They make a call, pass the hand along. If accepted, the next person must call something higher and the cycle repeats. If not accepted, then the hand is revealed. If it is lower than the called value, the player passing loses. Otherwise, the other player loses. After three losses, a player is out. Twos are wild.
 
